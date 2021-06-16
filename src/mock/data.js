@@ -53,7 +53,7 @@ export const skillsData = [
   },
   {
     id: nanoid(),
-    title: 'Git-alt',
+    title: 'Git ',
   },
   {
     id: nanoid(),

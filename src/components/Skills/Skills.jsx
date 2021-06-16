@@ -3,7 +3,8 @@ import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import PortfolioContext from '../../context/context';
-const Skills = (props) => {
+
+const Skills = () => {
   const { skills } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
@@ -24,13 +25,13 @@ const Skills = (props) => {
         <Fade bottom={isMobile} left={isDesktop} duration={1000} delay={500} distance="30px">
           <Title title="Skills" />
         </Fade>
-        <Row className="skill">
-          {skills.map((skill) => {
-            const { title, id, extra } = skill;
-            let x = title.toLowerCase();
+        <Row className="skill p-1">
+          {skills.map((skill, index) => {
+            const { title, extra } = skill;
+            const x = title.toLowerCase();
             return (
               <Col
-                id={id}
+                id={index}
                 xl={2}
                 lg={3}
                 md={3}
@@ -42,8 +43,8 @@ const Skills = (props) => {
                 <div className=" shadow-sm d-flex flex-column" style={{ width: '10em' }}>
                   <i
                     className={`fab fa-${x} fab fa-${extra} fa-5x text-color-main`}
-                    style={{ transition: 'scale(3)' }}
-                  ></i>
+                    style={{ fontSize: '6em' }}
+                  />
                   <h5 className="text-color-main font-weight-bold">{title}</h5>
                 </div>
               </Col>
