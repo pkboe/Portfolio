@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: `Hi!, I'm Pranil Kharche, a Final Year Computer Engineering Student.`,
   paragraphTwo:
-    'I 🤍 to code in Javascript, making cross platform apps, learning and exploring new technologies.I find so much fun in trying new Linux Operating Systems and learning about them.You can also find my another favorite hobby by checking out my Youtube channel @Blissweaver where i post my music tracks often.',
+    'I love to code in Javascript, making cross platform apps, learning and exploring new technologies.I find so much fun in trying new Linux Operating Systems and learning about them.You can also find my another favorite hobby by checking out my Youtube channel @Blissweaver where i post my music tracks often.',
   paragraphThree: `I'm currently exploring much intresting technologies like Gun.js, UI/UX, Capacitor.js and many more.`,
   resume: 'https://1drv.ms/b/s!AuTBNfbqCVxqhE11bTxAKml2KRb2', // if no resume, the button will not show up
 };
