@@ -2,17 +2,17 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Pranil Kharche || Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: `Pranil's Portfolio`, // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: `Greetings! my name is`,
+  name: 'Pranil Kharche',
+  subtitle: `I'm a Full-Stack Developer `,
+  cta: 'About Me!',
 };
 
 // ABOUT DATA
@@ -23,7 +23,51 @@ export const aboutData = {
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
-
+//SKILLS DATA
+export const skillsData = [
+  {
+    id: nanoid(),
+    title: 'HTML5',
+  },
+  {
+    id: nanoid(),
+    title: 'CSS3',
+  },
+  {
+    id: nanoid(),
+    title: 'JS',
+    extra: 'JS',
+  },
+  {
+    id: nanoid(),
+    title: 'Bootstrap',
+  },
+  {
+    id: nanoid(),
+    title: 'React',
+  },
+  {
+    id: nanoid(),
+    title: 'angular',
+  },
+  {
+    id: nanoid(),
+    title: 'Git-alt',
+  },
+  {
+    id: nanoid(),
+    title: 'Python',
+  },
+  {
+    id: nanoid(),
+    title: 'Node-Js',
+  },
+  {
+    id: nanoid(),
+    title: 'MongoDB',
+    extra: 'envira',
+  },
+];
 // PROJECTS DATA
 export const projectsData = [
   {
@@ -57,9 +101,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Wanna get in touch ?',
+  btn: 'Write Me',
+  email: 'pranilkharche@gmail.com',
 };
 
 // FOOTER DATA

@@ -88,9 +88,9 @@ const Projects = () => {
                       >
                         <Tilt
                           options={{
-                            reverse: false,
+                            reverse: true,
                             max: 8,
-                            perspective: 1000,
+                            perspective: 2000,
                             scale: 1,
                             speed: 300,
                             transition: true,
