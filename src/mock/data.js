@@ -18,12 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: `Hi!, I'm Pranil Kharche, a Computer Engineering student.I do love code in react and revolve around new tech.`,
+  paragraphTwo: 'I 🤍 to code and build cross platform apps.',
+  paragraphThree: `I'm currently learning so many things like Music Theory, Ui/Ux and Spring Boot and much to come`,
+  resume: 'https://1drv.ms/b/s!AuTBNfbqCVxqhE11bTxAKml2KRb2', // if no resume, the button will not show up
 };
-//SKILLS DATA
+// SKILLS DATA
 export const skillsData = [
   {
     id: nanoid(),
