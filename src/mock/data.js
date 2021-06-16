@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `Hi!, I'm Pranil Kharche, a Computer Engineering student.I do love code in react and revolve around new tech.`,
+  paragraphOne: `Hi!, I'm Pranil Kharche, a Computer Engineering student.I do love to code in react and revolve around new tech.`,
   paragraphTwo: 'I 🤍 to code and build cross platform apps.',
   paragraphThree: `I'm currently learning so many things like Music Theory, Ui/Ux and Spring Boot and much to come`,
   resume: 'https://1drv.ms/b/s!AuTBNfbqCVxqhE11bTxAKml2KRb2', // if no resume, the button will not show up
@@ -73,7 +73,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Metricgrade',
     info: '',
     info2: '',
     url: '',
@@ -82,7 +82,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Billstatic',
     info: '',
     info2: '',
     url: '',
@@ -91,7 +91,25 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Covid-19 Tracker',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'Enlist',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'Twitter Sentiment Analyser',
     info: '',
     info2: '',
     url: '',
@@ -112,23 +130,24 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/PranilKharche',
     },
     {
       id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/pkboe',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/pranil/?originalSubdomain=in',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/pkboe',
     },
+    { id: nanoid(), name: 'instagram', url: 'https://www.instagram.com/pranilkharche' },
   ],
 };
 
