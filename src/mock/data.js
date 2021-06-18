@@ -49,10 +49,6 @@ export const skillsData = [
   },
   {
     id: nanoid(),
-    title: 'angular',
-  },
-  {
-    id: nanoid(),
     title: 'Git ',
   },
   {
